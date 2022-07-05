@@ -1,8 +1,11 @@
 export default {
   family: {
-    medium: "yantra-medium, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
-    regular: "yantra-regular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
-    light: "yantra-light, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"
+    medium:
+      "yantra-medium, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
+    regular:
+      "yantra-regular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
+    light:
+      "yantra-light, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"
   },
 
   light: 300,
@@ -16,6 +19,6 @@ export default {
     large: '1.8rem',
     xlarge: '2.0rem',
     xxlarge: '2.8rem',
-    huge: '5.2rem',
-  },
-} as const;
+    huge: '5.2rem'
+  }
+} as const

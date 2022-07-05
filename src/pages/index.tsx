@@ -1,12 +1,9 @@
-import type { NextPage } from 'next'
+import Main from 'components/organisms/Main'
 
-
-const Home: NextPage = () => {
+export default function Home() {
   return (
-    <div>
-     Hello NextJS
-    </div>
+    <>
+      <Main />
+    </>
   )
 }
-
-export default Home
