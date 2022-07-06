@@ -8,6 +8,7 @@ export const Wrapper = styled.section`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: ${theme.spacing.xxsmall} 0;
 
     ${NavBarStyles.Item} {
       margin-left: ${theme.spacing.small};

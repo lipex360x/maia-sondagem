@@ -1,14 +1,14 @@
 import Header from 'components/organisms/Header'
 import { Container } from 'components/bosons/Container'
-
-import * as S from './styles'
+import Hero from 'components/organisms/Hero'
 
 const HomeTemplate = () => (
-  <Container>
-    <S.Wrapper>
+  <>
+    <Container>
       <Header />
-    </S.Wrapper>
-  </Container>
+    </Container>
+    <Hero />
+  </>
 )
 
 export default HomeTemplate
