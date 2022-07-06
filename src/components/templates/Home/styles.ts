@@ -1,10 +1,11 @@
 import styled, { css } from 'styled-components'
-// import media from 'styled-media-query'
+
+import * as HeaderStyles from 'components/organisms/Header/styles'
 
 export const Wrapper = styled.div`
-  ${({ theme }) => css``}
-`
-
-export const Title = styled.h2`
-  ${({ theme }) => css``}
+  ${({ theme }) => css`
+    ${HeaderStyles.Wrapper} {
+      padding: ${theme.spacing.xxsmall} 0;
+    }
+  `}
 `
