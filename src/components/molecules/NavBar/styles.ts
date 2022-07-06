@@ -29,3 +29,23 @@ export const MenuMobile = styled.div`
     font-size: ${theme.font.size.xlarge};
   `}
 `
+
+type MenuFullProps = {
+  isOpen: boolean
+}
+
+export const MenuFull = styled.nav<MenuFullProps>`
+  ${({ theme, isOpen }) => css`
+    position: absolute;
+    z-index: ${theme.layers.menu};
+    background: ${theme.colors.white};
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    pointer-events: ${isOpen ? 'all' : 'none'};
+    opacity: ${isOpen ? 1 : 0};
+    transition: opacity ${theme.transition.default};
+  `}
+`
